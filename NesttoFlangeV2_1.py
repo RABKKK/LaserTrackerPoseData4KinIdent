@@ -7,7 +7,6 @@ import csv
 from numpy import savetxt
 import cv2 as cv
 import numpy as np
-import math3d as m3d
 def rotmat(th,cond):
     if cond=='x':
         thr=th*np.pi/180
