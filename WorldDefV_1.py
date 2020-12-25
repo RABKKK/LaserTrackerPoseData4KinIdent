@@ -3,6 +3,8 @@
 # WorldDef.xyz: measured pose as end-effector moves along coordinates of robot coordinate frames, used to compute orientation (pose data was grabbed from laser tracker using Metrolog software and saved in the .xyz format)
 # RobPoseatRef.csv: Pose of robot flange pose (position and orientation) from robot coontroller
 # TransToolPosit.csv: The position of flange estimated during the identification of relation between tool and flange frames
+#Output
+#TransTractoWorld.csv: Transformation from tracker to robot coordinate frame
 import re
 import csv
 from numpy import savetxt
