@@ -1,5 +1,6 @@
 #estimation of relation between Nest to Flange coordinate frames
-#input ToolOrientDef.xyz (measured after by moving the end-effector fixing the position of flange origin) and ToolTransPose.xyz (measured after moving the flange along its own x and z coordinate axes)
+#Input:
+#ToolOrientDef.xyz: measured after by moving the end-effector fixing the position of flange origin and ToolTransPose.xyz was measured after moving the flange along its own x and z coordinate axes. (pose data was grabbed from laser tracker using Metrolog software and saved in the .xyz format)
 #Output TransFlangtoNest.csv and TransToolPosit.csv (used for estimating transformation from robot to tracker coordinate frames)
 #Use in conjunction with article R. A. Boby, A. Klimchik, Combination of Geometric and Parametric Approaches for Kinematic Identification of an Industrial Robot, RCIM
 import re
