@@ -18,4 +18,15 @@ Python codes do the following:
 
 1) NesttoFlangeV2_1.py: Helps in estimation of the tranformation between tool and flanfe coordinate frames.
 
+the input (samples files are provided) should contain 
+1.1) the position measurements at 3 orientations of the Flange frame, and
+1.2) the position data of the origin when end-effector is moved along x and z axis of flange coordinate frames.
+
 2) WorldDefV_1.py: Helps in estimation of the transformation between robot and base coordinate frames.
+
+the input (samples files are provided) should contain 
+2.1) one of the pose of the robot flange coordinate frame during the earlier experiments, and
+2.2) the estimated position data of the origin in terms of laser tracker coordinate frame obtained from the code NesttoFlangeV2_1.py.
+2.3) the measured position data while the flange coordinate frame is moved along robot coordinate frame axes. 
+
+the input files should contain the the position measurements at 3 orientations of the Flange frame.
