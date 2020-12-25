@@ -16,6 +16,6 @@ The 3 x 4 matrix representing the transformation from Tracker (B) to robot coord
 
 Python codes do the following:
 
-1) NesttoFlangeV2_1.py: Helps in estimation of the tranfromation between tool and flanfe coordinate frames.
+1) NesttoFlangeV2_1.py: Helps in estimation of the tranformation between tool and flanfe coordinate frames.
 
-2) 
+2) WorldDefV_1.py: Helps in estimation of the transformation between robot and base coordinate frames.
