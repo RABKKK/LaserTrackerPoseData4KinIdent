@@ -13,3 +13,9 @@ The 3 x 4 matrix representing the transformation from Flange (F in article) to T
 3. Base to Robot coordinate frames (TransTractoWorld0.csv)
 
 The 3 x 4 matrix representing the transformation from Tracker (B) to robot coordinate systems (R).
+
+Python codes do the following:
+
+1) NesttoFlangeV2_1.py: Helps in estimation of the tranfromation between tool and flanfe coordinate frames.
+
+2) 
