@@ -1,1 +1,2 @@
 # LaserTrackerPoseData4KinIdent
+The data used as part of the article with the following details: R. A. Boby, A. Klimchik, Combination of Geometric and Parametric Approaches for Kinematic Identification of an Industrial Robot, Robotics and Computer Integrated Manufacturing (under review). Data includes the end-effector pose data measured using laser tracker (N1N2N3Jval.csv), identified values of Tool to Flange transformation matrix (TransFlangtoNest0.csv) and Base to Robot coordinate frames (TransTractoWorld0.csv). 
