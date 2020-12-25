@@ -1,5 +1,5 @@
 # LaserTrackerPoseData4KinIdent
-The data used as part of the article with the following details: R. A. Boby, A. Klimchik, Combination of Geometric and Parametric Approaches for Kinematic Identification of an Industrial Robot, Robotics and Computer Integrated Manufacturing (under review). Data includes the end-effector pose data measured using laser tracker (N1N2N3Jval.csv), identified values of Tool to Flange transformation matrix (TransFlangtoNest0.csv) and Base to Robot coordinate frames (TransTractoWorld0.csv). 
+The data used as part of the article with the following details: R. A. Boby, A. Klimchik, Combination of Geometric and Parametric Approaches for Kinematic Identification of an Industrial Robot, Robotics and Computer Integrated Manufacturing (under review). Data includes the end-effector pose data measured using laser tracker (N1N2N3Jval.csv), identified values of Tool to Flange transformation matrix (TransFlangtoNest0.csv) and Base to Robot coordinate frames (TransTractoWorld0.csv). Details of each files are as follows:
 
 End-effector pose data (N1N2N3Jval.csv)
 
@@ -7,7 +7,9 @@ The first 9 columns of N1N2N3Jval.csv represent the position data of the 3 SMR m
 The last 9 columns represent the joint values from the robot controller.
 
 Identified values of Tool to Flange transformation matrix (TransFlangtoNest0.csv)
+
 The 3 x 4 matrix representing the transformation from Flange (F in article) to Tool coordinate systems (T in article).
 
 Base to Robot coordinate frames (TransTractoWorld0.csv)
+
 The 3 x 4 matrix representing the transformation from Tracker (B) to robot coordinate systems (R).
